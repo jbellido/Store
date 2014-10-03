@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @ranking.score %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @ranking.comment %>
+</p>
+
+<p>
+  <strong>Ranking date:</strong>
+  <%= @ranking.ranking_date %>
+</p>
+
+<%= link_to 'Edit', edit_ranking_path(@ranking) %> |
+<%= link_to 'Back', rankings_path %>

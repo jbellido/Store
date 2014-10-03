@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @design.name %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @design.image_url %>
+</p>
+
+<p>
+  <strong>Ispublic:</strong>
+  <%= @design.ispublic %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @design.comment %>
+</p>
+
+<p>
+  <strong>Design date:</strong>
+  <%= @design.design_date %>
+</p>
+
+<%= link_to 'Edit', edit_design_path(@design) %> |
+<%= link_to 'Back', designs_path %>
